@@ -1,0 +1,6 @@
+
+.DS_Store
+/__pycache__
+/build
+/dist
+/tests/__pycache__

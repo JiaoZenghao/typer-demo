@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "typer-demo"
+version = "0.1.0"
+description = "A demo CLI app using Typer"
+authors = ["Daniel Jiao <jiaozenghao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+typer = "^0.12.5"
+
+[tool.poetry.scripts]
+typer-demo = "typer_demo.main:app"
+build = "build:build"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.5.0"
+pytest = "^7.3.1"
+typer = "^0.12.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
