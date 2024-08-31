@@ -1,6 +1,39 @@
-
 .DS_Store
 /__pycache__
 /build
 /dist
 /tests/__pycache__
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Poetry
+poetry.lock
+
+# PyInstaller
+*.spec
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
