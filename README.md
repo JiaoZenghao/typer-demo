@@ -16,7 +16,7 @@ This project demonstrates the use of Typer for building command-line interfaces 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/typer-demo.git
+   git clone https://github.com/JiaoZenghao/typer-demo.git
    cd typer-demo
    ```
 
