@@ -34,8 +34,8 @@ This project demonstrates the use of Typer for building command-line interfaces 
 
 To run the application locally:
 
-1. `devbox shell`  
-2. `poetry install` 
+1. `devbox shell`
+2. `poetry install`
 3. `poetry run typer-demo`
 
 ## How to build
