@@ -36,6 +36,6 @@ def test_version():
 def test_help():
     result = runner.invoke(app)
     assert result.exit_code == 0
-    assert "Typer Demo CLI application" in result.stdout
+    assert "Show help information without command" in result.stdout
     assert "hello" in result.stdout
     assert "goodbye" in result.stdout
