@@ -9,6 +9,9 @@ readme = "README.md"
 python = ">=3.12,<3.13"
 typer = "^0.12.5"
 
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
 
 
 [tool.poetry.scripts]
